@@ -1,0 +1,9 @@
+{
+  "item.cultivationera.empty_spirit_stone": "Empty Spirit Stone",
+  "item.cultivationera.spirit_stone_rank_1": "Rank 1 Spirit Stone",
+
+  "block.cultivationera.spirit_stone_ore": "Spirit Stone Ore",
+  "block.cultivationera.deepslate_spirit_stone_ore": "Deepslate Spirit Stone Ore",
+
+  "itemGroup.cultivationera.cultivation_itemgroup": "Cultivation Era"
+}

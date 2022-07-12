@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cultivationera:item/spirit_stone_rank_1"
+  }
+}
