@@ -1,6 +1,7 @@
 package net.entropicequanimity.cultivationera.item;
 
 import net.entropicequanimity.cultivationera.CultivationEraMod;
+import net.entropicequanimity.cultivationera.item.consumables.SmokeBombItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -14,8 +15,13 @@ public class ModItems {
         return Registry.register(Registry.ITEM, new Identifier(CultivationEraMod.MOD_ID, name), item);
     }
 
+    //Cultivation Items
     public static final Item EMPTY_SPIRIT_STONE = registerItem("empty_spirit_stone",
             new Item(new FabricItemSettings().group(ModItemGroup.CULTIVATION)));
     public static final Item SPIRIT_STONE_RANK_1 = registerItem("spirit_stone_rank_1",
             new Item(new FabricItemSettings().group(ModItemGroup.CULTIVATION)));
+
+    ///Miscellaneous Items and Tools
+    public static final Item SMOKE_BOMB = registerItem("smoke_bomb",
+            new SmokeBombItem(new FabricItemSettings().group(ModItemGroup.CULTIVATION).maxCount(16)));
 }

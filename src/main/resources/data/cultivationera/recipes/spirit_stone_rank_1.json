@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "count": 1,
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {"item": "cultivationera:empty_spirit_stone"}
+  },
+  "result": { "item": "cultivationera:spirit_stone_rank_1" }
+}

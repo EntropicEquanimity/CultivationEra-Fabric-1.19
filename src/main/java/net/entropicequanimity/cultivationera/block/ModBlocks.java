@@ -22,17 +22,17 @@ public class ModBlocks {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(CultivationEraMod.MOD_ID, name), block);
     }
-    private static Item registerBlockItem(String name, Block block, ItemGroup tab){
-        return Registry.register(Registry.ITEM, new Identifier(CultivationEraMod.MOD_ID, name),
+    private static void registerBlockItem(String name, Block block, ItemGroup tab){
+        Registry.register(Registry.ITEM, new Identifier(CultivationEraMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
     }
 
     public static final Block SPIRIT_STONE_ORE = registerBlock("spirit_stone_ore",
-            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).hardness(6f).resistance(100f).luminance(4).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).hardness(6f).resistance(100f).luminance(7).requiresTool(),
                     UniformIntProvider.create(3,5)), ModItemGroup.CULTIVATION
     );
     public static final Block DEEPSLATE_SPIRIT_STONE_ORE = registerBlock("deepslate_spirit_stone_ore",
-            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).hardness(8f).resistance(200f).luminance(1).requiresTool(),
+            new OreBlock(FabricBlockSettings.of(Material.AMETHYST).hardness(8f).resistance(200f).luminance(5).requiresTool(),
         UniformIntProvider.create(5,7)), ModItemGroup.CULTIVATION
     );
 }

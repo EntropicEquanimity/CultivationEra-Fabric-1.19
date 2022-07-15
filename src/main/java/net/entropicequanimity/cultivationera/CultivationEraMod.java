@@ -2,6 +2,7 @@ package net.entropicequanimity.cultivationera;
 
 import net.entropicequanimity.cultivationera.block.ModBlocks;
 import net.entropicequanimity.cultivationera.item.ModItems;
+import net.entropicequanimity.cultivationera.particle.ModParticles;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class CultivationEraMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModParticles.registerModParticles();
 	}
 }
