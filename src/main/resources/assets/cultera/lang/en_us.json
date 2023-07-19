@@ -1,0 +1,18 @@
+{
+  "item.cultera.empty_spirit_stone": "Empty Spirit Stone",
+  "item.cultera.spirit_stone_rank_1": "Rank 1 Spirit Stone",
+
+  "item.cultera.smoke_bomb": "Smoke Bomb",
+
+  "item.cultera.smoke_bomb_tooltip_line1" : "For when you're looking for a quick escape. Blinds and slows",
+  "item.cultera.smoke_bomb_tooltip_line2" : "nearby enemies while giving the player speed and invisibility.",
+
+  "item.cultera.spatial_bag_small": "Small Spatial Bag",
+
+  "block.cultera.spirit_stone_ore": "Spirit Stone Ore",
+  "block.cultera.deepslate_spirit_stone_ore": "Deepslate Spirit Stone Ore",
+
+  "block.cultera.spirit_collector_basic": "Basic Spirit Collector",
+
+  "itemGroup.cultera.cultivation_itemgroup": "Cultivation Era"
+}

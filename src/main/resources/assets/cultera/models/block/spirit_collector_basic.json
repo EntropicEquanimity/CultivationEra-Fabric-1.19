@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cultera:block/spirit_collector_basic"
+  }
+}

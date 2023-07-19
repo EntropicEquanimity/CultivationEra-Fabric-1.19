@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "cultivationera:spirit_stone_ore",
-    "cultivationera:deepslate_spirit_stone_ore"
+    "cultera:spirit_stone_ore",
+    "cultera:deepslate_spirit_stone_ore"
   ]
 }

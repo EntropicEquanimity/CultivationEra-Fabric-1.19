@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "cultivationera",
+  "id": "cultera",
   "version": "${version}",
 
   "name": "Cultivation Era",
-  "description": "The rise of cultivators is upon us, the era of the cultivation is nigh.",
+  "description": "The rise of cultivators is upon us, the era of cultivation is nigh.",
   "authors": [
     "EntropicEquanimity"
   ],
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.entropicequanimity.cultivationera.CultivationEraMod"
+      "net.entropicequanimity.cultera.CultivationEraMod"
     ],
     "client": [
-      "net.entropicequanimity.cultivationera.CultivationEraModClient"
+      "net.entropicequanimity.cultera.CultivationEraModClient"
     ]
   },
   "mixins": [
-    "cultivationera.mixins.json"
+    "cultera.mixins.json"
   ],
 
   "depends": {

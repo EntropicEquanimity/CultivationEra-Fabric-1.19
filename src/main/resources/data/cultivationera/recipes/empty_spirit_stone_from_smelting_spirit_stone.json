@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 15.0,
-  "ingredient": {
-    "item": "cultivationera:spirit_stone_rank_1"
-  },
-  "result": "cultivationera:empty_spirit_stone"
-}
